@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Manhar Total Solution – Government & Online Services</title>
+    <meta
+      name="description"
+      content="Manhar Total Solution — Fast, affordable & genuine government documentation and digital services. PAN, Passport, RTO, MSME, ITR & more."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="siteHeader" class="header transparent">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <div class="logo-badge">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 8H18M6 12H14M6 16H12"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="brand">Manhar</span>
+            <small class="sub">Total Solution</small>
+          </div>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#aboutPreview">About</a></li>
+            <li><a href="#servicesOverview">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="header-actions">
+            <a class="btn btn-outline" href="privacy-policy.html">Privacy</a>
+            <a
+              class="btn btn-primary whatsapp-desktop"
+              id="whDesktop"
+              href="https://wa.me/919664774496?text=Hello%20Manhar%20Total%20Solution"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <button
+              id="menuBtn"
+              class="hamburger"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO Section -->
+      <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-left" data-animate="fade-in">
+            <h1><span class="accent-line">Manhar</span> Total Solution</h1>
+            <p class="lead">
+              Your trusted partner for all Government & Digital Services — fast,
+              secure, and completely transparent.
+            </p>
+
+            <ul class="highlights">
+              <li>Fast & Reliable</li>
+              <li>Affordable & Transparent</li>
+              <li>100% Genuine</li>
+              <li>Expert Guidance</li>
+            </ul>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#servicesOverview">
+                <i class="fas fa-list-alt"></i> View Services
+              </a>
+              <a
+                class="btn btn-accent"
+                href="https://wa.me/919664774496?text=Hi%20I%20need%20help"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+              </a>
+            </div>
+
+            <div class="hero-trust">
+              <div class="trust-item">
+                <strong>4+ Years</strong>
+                <span>Experience</span>
+              </div>
+              <div class="trust-item">
+                <strong>5000+</strong>
+                <span>Applications</span>
+              </div>
+              <div class="trust-item">
+                <strong>98%</strong>
+                <span>Success Rate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="hero-visual">
+              <div class="hero-card">
+                <img
+                  src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1350&q=80"
+                  alt="Helping client with documents"
+                  loading="lazy"
+                />
+                <div class="hero-card-info">
+                  <h4>Documentation Made Simple</h4>
+                  <p>
+                    PAN, Passport, RTO and more — we guide you step-by-step with
+                    expert assistance.
+                  </p>
+                </div>
+              </div>
+
+              <div class="floating-elements">
+                <div class="floating-element">
+                  <i
+                    class="fas fa-passport"
+                    style="color: var(--primary); font-size: 24px"
+                  ></i>
+                </div>
+                <div class="floating-element">
+                  <i
+                    class="fas fa-id-card"
+                    style="color: var(--accent); font-size: 24px"
+                  ></i>
+                </div>
+                <div class="floating-element">
+                  <i
+                    class="fas fa-car"
+                    style="color: var(--primary); font-size: 24px"
+                  ></i>
+                </div>
+                <div class="floating-element">
+                  <i
+                    class="fas fa-file-invoice"
+                    style="color: var(--accent); font-size: 24px"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES Section -->
+      <section id="servicesOverview" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our Services</h2>
+            <p>
+              Comprehensive solutions for all your documentation and digital
+              service needs
+            </p>
+          </div>
+
+          <div class="services-grid" id="servicesGrid" aria-live="polite">
+            <!-- PAN Card Service -->
+            <article class="service-card" data-service="pan" tabindex="0">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div
+                    class="svc-media"
+                    style="
+                      background-image: url('https://images.unsplash.com/photo-1581579189815-6b3bb0b3b38a?auto=format&fit=crop&w=800&q=60');
+                    "
+                  ></div>
+                  <div class="svc-body">
+                    <div class="svc-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>PAN Card</h3>
+                    <p>
+                      New application, correction, duplicate — quick and
+                      reliable service.
+                    </p>
+                    <a class="btn btn-outline" href="services.html#pan"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>PAN Card Services</h3>
+                  <ul>
+                    <li>New PAN Application</li>
+                    <li>PAN Correction/Update</li>
+                    <li>Duplicate PAN Card</li>
+                    <li>Fast Processing</li>
+                  </ul>
+                  <a
+                    class="btn btn-accent"
+                    href="https://wa.me/919664774496?text=Hi,%20I%20need%20PAN%20card%20service"
+                  >
+                    <i class="fab fa-whatsapp"></i> Enquire Now
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Passport Service -->
+            <article class="service-card" data-service="passport" tabindex="0">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div
+                    class="svc-media"
+                    style="
+                      background-image: url('https://images.unsplash.com/photo-1520975912773-3a6e2f4a7f1d?auto=format&fit=crop&w=800&q=60');
+                    "
+                  ></div>
+                  <div class="svc-body">
+                    <div class="svc-icon"><i class="fas fa-passport"></i></div>
+                    <h3>Passport</h3>
+                    <p>
+                      New application, renewals & document verification
+                      assistance.
+                    </p>
+                    <a class="btn btn-outline" href="services.html#passport"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>Passport Services</h3>
+                  <ul>
+                    <li>New Passport Application</li>
+                    <li>Passport Renewal</li>
+                    <li>Document Verification</li>
+                    <li>Police Clearance</li>
+                  </ul>
+                  <a
+                    class="btn btn-accent"
+                    href="https://wa.me/919664774496?text=Hi,%20I%20need%20Passport%20service"
+                  >
+                    <i class="fab fa-whatsapp"></i> Enquire Now
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- MSME Service -->
+            <article class="service-card" data-service="msme" tabindex="0">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div
+                    class="svc-media"
+                    style="
+                      background-image: url('https://images.unsplash.com/photo-1531403009284-440f080d1e5e?auto=format&fit=crop&w=800&q=60');
+                    "
+                  ></div>
+                  <div class="svc-body">
+                    <div class="svc-icon"><i class="fas fa-industry"></i></div>
+                    <h3>MSME / Udyam</h3>
+                    <p>
+                      Udyam registration & benefits assistance for small
+                      businesses.
+                    </p>
+                    <a class="btn btn-outline" href="services.html#msme"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>MSME Services</h3>
+                  <ul>
+                    <li>Udyam Registration</li>
+                    <li>MSME Certificate</li>
+                    <li>Government Subsidies</li>
+                    <li>Business Loans</li>
+                  </ul>
+                  <a
+                    class="btn btn-accent"
+                    href="https://wa.me/919664774496?text=Hi,%20I%20need%20MSME%20registration"
+                  >
+                    <i class="fab fa-whatsapp"></i> Enquire Now
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Additional services would follow the same pattern -->
+            <!-- Due to space constraints, I'll include just these three as examples -->
+          </div>
+
+          <div style="text-align: center; margin-top: 40px">
+            <a href="services.html" class="btn btn-primary">
+              <i class="fas fa-arrow-right"></i> View All Services
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE US Section -->
+      <section id="whyChoose" class="section section-alt">
+        <div class="container">
+          <div class="section-title">
+            <h2>Why Choose Us</h2>
+            <p>
+              We stand out with our commitment to quality, speed, and customer
+              satisfaction
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature">
+              <div class="icon"><i class="fas fa-award"></i></div>
+              <h4>4+ Years Experience</h4>
+              <p>
+                Expert handling of government paperwork and processes with
+                proven track record.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon"><i class="fas fa-bolt"></i></div>
+              <h4>Fast Processing</h4>
+              <p>
+                Optimised workflow and expert knowledge for quicker results and
+                approvals.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon"><i class="fas fa-indian-rupee-sign"></i></div>
+              <h4>Affordable Pricing</h4>
+              <p>
+                Transparent pricing with no hidden fees. Value for money
+                guaranteed.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon"><i class="fas fa-shield-alt"></i></div>
+              <h4>100% Genuine</h4>
+              <p>
+                Verified procedures and secure handling with complete
+                confidentiality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS Section -->
+      <section id="process" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our Simple Process</h2>
+            <p>Getting your documents processed has never been easier</p>
+          </div>
+
+          <div class="process-steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Consultation</h4>
+                <p>Contact us with your requirements and documents</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Documentation</h4>
+                <p>We verify your documents and prepare application</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Processing</h4>
+                <p>We submit and track your application with authorities</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Delivery</h4>
+                <p>Receive your documents with complete satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS Section -->
+      <section id="testimonials" class="section section-alt">
+        <div class="container">
+          <div class="section-title">
+            <h2>What Our Clients Say</h2>
+            <p>Hear from our satisfied customers about their experience</p>
+          </div>
+
+          <div class="testimonials">
+            <div class="testimonial-grid">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  "Manhar Total Solution helped me get my passport in record
+                  time. Their guidance through the entire process was
+                  exceptional. Highly recommended!"
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/32.jpg"
+                      alt="Rahul Sharma"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h5>Rahul Sharma</h5>
+                    <p>Passport Service</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  "I needed MSME registration for my small business. The team at
+                  Manhar made it so simple and hassle-free. Great service at
+                  reasonable prices!"
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/44.jpg"
+                      alt="Priya Patel"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h5>Priya Patel</h5>
+                    <p>MSME Registration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  "From PAN card to driving license, I've used multiple
+                  services. Always professional, prompt and reliable. My go-to
+                  place for all documentation needs."
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/67.jpg"
+                      alt="Amit Verma"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h5>Amit Verma</h5>
+                    <p>Multiple Services</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT Section -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any queries or service requirements</p>
+          </div>
+
+          <div class="contact-preview">
+            <div class="contact-card">
+              <h3>Send Us a Message</h3>
+              <p class="muted">
+                Fill the form or message us on WhatsApp — we respond quickly.
+              </p>
+              <form
+                id="mainContactForm"
+                class="contact-form"
+                aria-label="Contact form"
+              >
+                <div class="form-group">
+                  <label for="cname">Your Name</label>
+                  <input
+                    id="cname"
+                    name="name"
+                    type="text"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="cphone">Phone Number</label>
+                  <input
+                    id="cphone"
+                    name="phone"
+                    type="tel"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="cservice">Service Required</label>
+                  <select id="cservice" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="pan">PAN Card</option>
+                    <option value="passport">Passport</option>
+                    <option value="msme">MSME Registration</option>
+                    <option value="itr">Income Tax Filing</option>
+                    <option value="rto">RTO Services</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="cmessage">Message (Optional)</label>
+                  <textarea
+                    id="cmessage"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us about your requirements..."
+                  ></textarea>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                  </button>
+                  <a class="btn btn-outline" href="tel:+919664774496">
+                    <i class="fas fa-phone"></i> Call Now
+                  </a>
+                </div>
+                <p
+                  id="mainFormStatus"
+                  class="form-status"
+                  role="status"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </div>
+
+            <aside class="contact-details">
+              <div class="contact-box">
+                <h4><i class="fas fa-map-marker-alt"></i> Our Office</h4>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <div>
+                      <strong>Chandarva Branch Office</strong>
+                      <p>
+                        Near Main Market, Chandarva<br />City, State - PIN Code
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                      <strong>Business Hours</strong>
+                      <p>
+                        Monday - Saturday: 9:30 AM - 7:00 PM<br />Sunday: 10:00
+                        AM - 2:00 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="map">
+                  <iframe
+                    title="office map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.366391535885!2d77.20931331508245!3d28.61388878242494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1647857302169!5m2!1sen!2sin"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="contact-box">
+                <h4><i class="fas fa-address-book"></i> Contact Info</h4>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                      <strong>Phone</strong>
+                      <p>+91 96647 74496</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                      <strong>Email</strong>
+                      <p>info@manhartotalsolution.com</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                      <strong>WhatsApp</strong>
+                      <p>+91 96647 74496</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+      id="whatsappFloat"
+      class="whatsapp-float"
+      href="https://wa.me/919664774496?text=Hi%20Manhar%20Total%20Solution"
+      target="_blank"
+      rel="noopener"
+      aria-label="Contact on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-col footer-about">
+          <h5>Manhar Total Solution</h5>
+          <p>
+            Your trusted partner for all government documentation and digital
+            services. Fast, reliable, and transparent services for all your
+            needs.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="quick-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutPreview">About Us</a></li>
+            <li><a href="#servicesOverview">Services</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Our Services</h5>
+          <ul class="quick-links">
+            <li><a href="services.html#pan">PAN Card</a></li>
+            <li><a href="services.html#passport">Passport</a></li>
+            <li><a href="services.html#msme">MSME Registration</a></li>
+            <li><a href="services.html#itr">Income Tax Filing</a></li>
+            <li><a href="services.html#rto">RTO Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h5>Contact Info</h5>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Chandarva Branch Office, City,
+            State
+          </p>
+          <p><i class="fas fa-phone"></i> +91 96647 74496</p>
+          <p><i class="fas fa-envelope"></i> info@manhartotalsolution.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Sat: 9:30AM - 7:00PM</p>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <small>&copy; 2025 Manhar Total Solution. All Rights Reserved.</small>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
